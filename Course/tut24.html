@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS display property</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        header{
+            margin: auto;
+            width: 52%;
+
+        }
+        img{
+            margin: auto;
+            width: 40px;
+            float: right;
+            display: block;
+        }
+        h3{
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0px;
+        }
+        .box{
+            border: 4px solid black;
+            background-color: grey;
+            margin: 4px;
+            padding: 23px;
+            width: 33%;
+            box-sizing: border-box;
+            display: inline-block;
+
+        }
+        .container{
+            display: inline-block;
+            width: 1200px;
+        }
+    </style>
+</head>
+<body>
+    <header class="top">
+        <img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+        <h3>Welcome to my Blog</h3>
+    </header>
+    <div class="container">
+        <div class="box">
+            <header>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptates est! Quam ut magni, expedita ducimus reprehenderit atque. Perferendis iusto ratione cupiditate mollitia distinctio, esse impedit sit magni, rem expedita consequuntur tenetur suscipit vero!
+            </header>
+        </div>
+        <div class="box">
+            <header>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime sit vitae sequi dolore libero repellendus eum labore laborum eligendi quo nam expedita necessitatibus aliquam corrupti id, ducimus dicta assumenda iure distinctio illum fuga minus.</header>
+        </div>
+        <div class="box">
+            <header>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime sit vitae sequi dolore libero repellendus eum labore laborum eligendi quo nam expedita necessitatibus aliquam corrupti id, ducimus dicta assumenda iure distinctio illum fuga minus.</header>
+        </div>
+    </div>
+</body>
+</html>
